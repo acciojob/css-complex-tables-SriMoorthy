@@ -1,1 +1,29 @@
 /*  your css code here. If applicable */
+/* Styling for the table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid orange;
+}
+
+th, td {
+    border: 1px solid orange;
+    text-align: center;
+    padding: 3px 5px;
+}
+
+/* Styling for the table header */
+thead th {
+    background-color: #888888;
+    color: white;
+}
+
+/* Styling for the sub-total row */
+.sub-total-text {
+    text-align: right;
+}
+
+.sub-total-row td {
+    font-weight: bold;
+}
+
